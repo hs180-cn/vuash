@@ -1,0 +1,4 @@
+= form_for @message do |f|
+  = hidden_field_tag :secret, params[:secret]
+  = f.submit 'Ler mensagem'
+= link_to 'Criar nova mensagem', new_message_path

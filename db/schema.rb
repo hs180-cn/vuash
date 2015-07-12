@@ -17,12 +17,12 @@ ActiveRecord::Schema.define(version: 20150712073500) do
   enable_extension "plpgsql"
 
   create_table "messages", force: :cascade do |t|
-    t.uuid     "secret",     null: false
-    t.text     "body",       null: false
+    t.text     "uuid",       null: false
+    t.binary   "data",       null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
-  add_index "messages", ["secret"], name: "index_messages_on_secret", unique: true, using: :btree
+  add_index "messages", ["uuid"], name: "index_messages_on_uuid", unique: true, using: :btree
 
 end

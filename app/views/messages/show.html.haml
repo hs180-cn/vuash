@@ -1,4 +1,3 @@
-%form(action='/#{@message.secret}' method='post')
-  %input(type='hidden' name='_method' value='patch')
-  %input(type='submit' value='Ver mensagem')
-= link_to 'Criar nova mensagem', '/'
+%h1 Mensagem criada!
+%h2= edit_message_url(@message, secret: params[:secret])
+= link_to 'Criar nova mensagem', new_message_path
