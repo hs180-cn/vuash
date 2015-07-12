@@ -1,2 +1,4 @@
-%h1 Messages#show
-%p Find me in app/views/messages/show.html.haml
+%form(action='/#{@message.secret}' method='post')
+  %input(type='hidden' name='_method' value='patch')
+  %input(type='submit' value='Ver mensagem')
+= link_to 'Criar nova mensagem', '/'
