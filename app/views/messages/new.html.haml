@@ -1,5 +1,5 @@
 = form_for @message do |f|
   = hidden_field_tag :secret, SecureRandom.uuid
-  = f.text_area :body, autofocus: true, maxlength: '100000', class: 'new-message-field'
+  = f.text_area :body, autofocus: true, maxlength: 16384, class: 'new-message-field'
   %div.padded
     = f.submit 'Criar mensagem', class: 'bt-blue'
