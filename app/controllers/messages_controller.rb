@@ -6,7 +6,7 @@ class MessagesController < ApplicationController
   end
 
   def create
-    @message = Message.create(message_params)
+    @message = Message.new(message_params)
     @message.encrypt_body(params[:secret])
 
     if @message.save
