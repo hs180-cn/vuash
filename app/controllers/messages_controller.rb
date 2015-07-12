@@ -8,9 +8,12 @@ class MessagesController < ApplicationController
   def create
     @message = Message.create(message_params)
     @message.encrypt_body(params[:secret])
-    @message.save
 
-    redirect_to [@message, secret: params[:secret]]
+    if @message.save
+      redirect_to [@message, secret: params[:secret]]
+    else
+      render :new
+    end
   end
 
   def show
