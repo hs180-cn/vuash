@@ -6,6 +6,8 @@ class Message < ActiveRecord::Base
 
   validates_uniqueness_of :uuid
   validates_presence_of :body, :data
+  validates_length_of :body, maximum: 16.kilobytes
+  validates_length_of :data, maximum: 16.kilobytes + 32
 
   before_create :set_uuid
 

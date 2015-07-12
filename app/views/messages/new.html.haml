@@ -1,6 +1,6 @@
 = form_for @message do |f|
   = hidden_field_tag :secret, SecureRandom.uuid
-  = f.text_area :body, autofocus: true, maxlength: '16384', placeholder: 'Digite sua mensagem.', class: 'new-message-field'
+  = f.text_area :body, autofocus: true, maxlength: 16.kilobytes, placeholder: 'Digite sua mensagem.', class: 'new-message-field'
   %div.padded
     %button.bt-blue
       %svg(width='16px' viewBox='0 0 16 16')
