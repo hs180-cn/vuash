@@ -1,4 +1,8 @@
-= form_for @message do |f|
-  = hidden_field_tag :secret, params[:secret]
-  = f.submit 'Ler mensagem'
-= link_to 'Criar nova mensagem', new_message_path
+%div.padded
+  %h1 Você recebeu uma mensagem secreta
+  %p
+    Esta mensagem foi criptografada
+    %strong e será destruída após a leitura.
+  = form_for @message do |f|
+    = hidden_field_tag :secret, params[:secret]
+    = f.submit 'Ler mensagem', class: 'bt-blue'

@@ -1,2 +1,6 @@
-%p Mensagem não encontrada ou já lida.
-= link_to 'Criar nova mensagem', '/'
+%div.padded
+  %h1 Mensagem não encontrada ou já lida
+  %p No Vuash, as mensagens só podem ser lidas uma vez. Verifique com quem te enviou o link.
+  %p.cta
+    Envie mensagens seguras que só podem ser acessadas uma vez com o Vuash:
+    = link_to 'Criar nova mensagem', new_message_path

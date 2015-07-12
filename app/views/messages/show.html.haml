@@ -1,3 +1,6 @@
-%h1 Mensagem criada!
-%h2= edit_message_url(@message, secret: params[:secret])
-= link_to 'Criar nova mensagem', new_message_path
+%div.padded
+  %h1 Mensagem criada
+  %p
+    Compartilhe o link abaixo com quem você quiser que leia.
+    %strong A mensagem e o link serão destruídos após a leitura.
+  %input.share-link(type='text' readonly autofocus onclick='this.select();' value="#{edit_message_url(@message, secret: params[:secret])}")
