@@ -1,0 +1,126 @@
+@import "normalize-rails"
+@import "bourbon"
+@import "neat"
+
+
+// Fonts
+
+$f-sans: Helvetica Neue, Helvetica, sans-serif
+
+@import url(https://fonts.googleapis.com/css?family=Quicksand)
+$f-logo: Quicksand, sans-serif
+
+@import url(https://fonts.googleapis.com/css?family=Oxygen+Mono)
+$f-mono: Oxygen Mono, monospace
+
+
+// Colors
+
+$c-white: #fff
+$c-black: #000
+$c-light: #cfd7eb
+$c-dark: #464952
+$c-gray: #787d8c
+$c-yellow: #fe0
+$c-blue: #4a90e2
+
+
+// Base styles
+
+body
+  background-color: $c-dark
+  font-family: $f-sans
+  padding: 40px
+
+.padded
+  padding: 20px
+
+.bt-blue
+  background: $c-blue
+  border: none
+  border-radius: 4px
+  box-sizing: border-box
+  color: $c-white
+  font-weight: 500
+  padding: 20px
+  width: 100%
+
+  &:hover,
+  &:focus
+    background-color: scale-color($c-blue, $lightness: -5%)
+
+  &:active
+    background-color: scale-color($c-blue, $lightness: -15%)
+    box-shadow: inset 0 2px 2px scale-color($c-blue, $lightness: -45%)
+
+
+// Main containers
+
+.site-wrap
+  +outer-container($local-max-width: 600px)
+
+.content-wrap
+  background-color: $c-white
+  border-radius: 4px
+  box-shadow: 0 1px 1px rgba($c-black, .5)
+  overflow: hidden
+
+
+// Header with logo and slogan
+
+.site-header
+  border-bottom: 1px solid $c-light
+  padding: 10px 20px
+  +clearfix
+
+.logo-vuash
+  color: $c-black
+  font:
+    family: $f-logo
+    size: 30px
+    weight: 400
+  float: left
+  margin: 0
+  text:
+    decoration: none
+    transform: uppercase
+
+  svg
+    transition: transform 200ms cubic-bezier(.5, 1, 0, 1.5)
+    vertical-align: -5px
+
+  &:hover,
+  &:focus
+    svg
+      transform: rotate(-180deg) scale(.8)
+
+      path
+        fill: $c-light
+
+.slogan
+  color: $c-gray
+  float: right
+  font-size: 14px
+  margin: 10px 0 0
+
+
+// New message
+
+.new-message-field
+  background: $c-white
+  border: none
+  font-family: $f-mono
+  height: 400px
+  outline: none
+  padding: 20px
+  resize: vertical
+  width: 100%
+
+
+.share-link
+  background: $c-white
+  border: 2px solid $c-blue
+  border-radius: 4px
+  color: $c-blue
+  padding: 10px
+  width: 100%
