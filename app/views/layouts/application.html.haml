@@ -5,10 +5,20 @@
   %head
     %meta(charset='utf-8')
     %meta(name='viewport' content='width=device-width,initial-scale=1')
+
+    / Favicons
     %link(rel='icon' sizes='any' mask href='favicon.svg')
     %meta(name='theme-color' content='#4a90e2')
     %link(rel='icon' href='favicon.png')
+
+    / Facebook
+    %meta(property="og:url" content="https://vua.sh")
+    %meta(property="og:title" content="Vuash")
+    %meta(property="og:description" content="Mensagens criptografadas, acessíveis apenas uma vez.")
+    %meta(property="og:image" content="favicon.png")
+
     %title Vuash - Mensagens criptografadas, acessíveis apenas uma vez.
+
     = stylesheet_link_tag 'application', 'data-turbolinks-track' => true, 'media' => 'all'
     = javascript_include_tag 'application', 'data-turbolinks-track' => true
     = csrf_meta_tags
