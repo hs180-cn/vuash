@@ -1,5 +1,3 @@
-message_link = %r[/messages/\d+/edit\?secret=\h{8}-\h{4}-\h{4}-\h{4}-\h{12}]
-
 Dado(/^que eu estou na página de nova mensagem$/) do
   visit new_message_path
 end
@@ -15,5 +13,5 @@ Quando(/^eu clicar em "(.*?)"$/) do |button|
 end
 
 Então(/^eu receberei um link seguro$/) do
-  expect(page).to have_content(message_link)
+  expect(page).to have_selector('input[value]')
 end
