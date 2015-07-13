@@ -26,7 +26,7 @@
   %body
     %div.site-wrap
 
-      %header.site-header
+      %header.site-header(role='banner')
         %a.logo-vuash(href="/")
           %svg(height='30px' viewBox='0 0 106 97')
             %title Vuash Paper Airplane Mark
@@ -35,16 +35,17 @@
         %p.slogan
           Mensagens criptografadas, acessíveis apenas uma vez.
 
-      %main.site-body= yield
+      %main.site-body(role='main')= yield
 
-      %footer.site-footer
+      %footer.site-footer(role='complementary')
         %ul.features
           %li
             %h2 Segurança
             %p
               Sua mensagem é criptografada na hora com uma chave secreta que não é guardada no banco de dados. Apenas quem tem o link pode acessar.
               %br
-              %a(href='https://github.com/current/vuash' target='_blank') Saiba mais &rarr;
+              -# TODO: Link to article/wiki about security
+              %a(href='#' target='_blank') Saiba mais &rarr;
           %li
             %h2 Open Source
             %p
