@@ -1,3 +1,8 @@
+- if @message.errors.any?
+  %ul.errors
+    - @message.errors.full_messages.each do |message|
+      %li= message
+
 = form_for @message do |f|
   = hidden_field_tag :secret, SecureRandom.uuid
   = f.text_area :body, autofocus: true, maxlength: 16.kilobytes, placeholder: 'Digite sua mensagem.', class: 'new-message-field'

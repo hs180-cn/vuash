@@ -206,3 +206,10 @@ pt-BR:
       short: "%d de %B, %H:%M"
       shortest: "%d/%m às %H:%M"
     pm: ''
+
+  activerecord:
+    models:
+      message: Mensagem
+    attributes:
+      message:
+        body: Texto
