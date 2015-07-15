@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="205px" height="139px" viewBox="0 0 205 139" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Folded Paper</title>
+  <g id="paper" transform="translate(0, -13)">
+    <path id="shadow" fill="#EEEEEE" d="M79.8948822,25.9929584 L200.272413,95.4929584 L133.291651,151.507042 L12.9141201,82.0070416 L79.8948822,25.9929584 L79.8948822,25.9929584 Z"></path>
+    <path id="outline" fill="#B3A594" d="M204.553502,85.0778949 L133.340689,144.422105 L8.63303121,72.4221051 L24.9698025,58.7601336 L0.446497727,44.601597 L80.7118695,13.5778949 L204.553502,85.0778949 L204.553502,85.0778949 Z"></path>
+    <g id="inner" transform="translate(105.910254, 78.933013) rotate(-330.000000) translate(-105.910254, -78.933013) translate(20.910254, 37.433013)">
+      <mask id="mask" fill="white">
+        <path id="inner-base-path" d="M31,2.84217094e-14 L170,2.84217094e-14 L140,82 L1,82 L31,2.84217094e-14 Z"></path>
+      </mask>
+      <use id="inner-base" fill="#EFEFDC" xlink:href="#inner-base-path"></use>
+      <path id="inner-shadow" fill="#D7D2B8" mask="url(#mask)" d="M32,4.26325641e-14 L170,4.26325641e-14 L130,72 L-11,72 L32,4.26325641e-14 Z"></path>
+    </g>
+    <path id="outer" fill="#FAFAEF" d="M79.8948822,15.9929584 L200.272413,85.4929584 L125.971143,114.186533 L5.59361204,44.6865335 L79.8948822,15.9929584 L79.8948822,15.9929584 Z"></path>
+    <path id="dotted-1" stroke="#E6E5CF" stroke-width="2" stroke-linecap="round" stroke-dasharray="4,6,4,6" d="M81,18 L126,112"></path>
+    <path id="dotted-2" stroke="#E6E5CF" stroke-width="2" stroke-linecap="round" stroke-dasharray="4,6,4,6" d="M87,23 L163.5,94.5"></path>
+  </g>
+</svg>
