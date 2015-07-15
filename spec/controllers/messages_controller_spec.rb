@@ -12,15 +12,15 @@ RSpec.describe MessagesController, type: :controller do
   describe 'POST #create' do
     it 'returns http success' do
       post :create, message: { body: 'Some text' }, secret: 'secret'
-      expect(response).to have_http_status(:redirect)
+      expect(response).to have_http_status(:success)
     end
   end
 
-  describe 'GET #show' do
+  describe 'GET #confirm' do
     before { allow(Message).to receive(:find) { double }}
 
     it 'returns http success' do
-      get :show, id: 1
+      get :confirm, id: 1, secret: 'secret'
       expect(response).to have_http_status(:success)
     end
   end

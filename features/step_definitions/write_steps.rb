@@ -1,5 +1,5 @@
 Dado(/^que eu estou na página de nova mensagem$/) do
-  visit new_message_path
+  visit root_path
 end
 
 Dado(/^que eu preenchi o corpo da mensagem$/) do

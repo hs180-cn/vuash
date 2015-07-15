@@ -10,21 +10,17 @@ class MessagesController < ApplicationController
     @message.encrypt_body(params[:secret])
 
     if @message.save
-      redirect_to [@message, secret: params[:secret]]
+      render :created
     else
       render :new
     end
   end
 
+  def confirm
+    @message = Message.find(params[:id])
+  end
+
   def show
-    @message = Message.find(params[:id])
-  end
-
-  def edit
-    @message = Message.find(params[:id])
-  end
-
-  def update
     @message = Message.find(params[:id])
     @message.decrypt_body(params[:secret])
     @message.destroy

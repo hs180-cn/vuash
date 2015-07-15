@@ -4,6 +4,5 @@
   %p
     Esta mensagem foi criptografada
     %strong e será destruída após a leitura.
-  = form_for @message do |f|
-    = hidden_field_tag :secret, params[:secret]
+  = form_for @message, url: [@message, secret: params[:secret]], method: 'delete' do |f|
     = f.submit 'Ler mensagem', class: 'bt-blue'

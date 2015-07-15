@@ -5,7 +5,7 @@ Dado(/^que existe uma mensagem com o texto "(.*?)"$/) do |text|
 end
 
 Dado(/^que eu estou na página de leitura da mensagem$/) do
-  visit edit_message_path(@message, secret: 'secret')
+  visit message_path(@message, secret: 'secret')
 end
 
 Então(/^eu verei o texto "(.*?)"$/) do |text|
