@@ -4,16 +4,16 @@ class Message < ActiveRecord::Base
   attr_accessor :body
   attr_readonly :data
 
-  validates_presence_of :body, :data
+  validates_presence_of :body
   validates_length_of :body, maximum: 16.kilobytes
   validates_length_of :data, maximum: 16.kilobytes + 32
 
   def encrypt_body(secret)
-    write_attribute(:data, encrypt(body, secret))
+    write_attribute(:data, encrypt(body, secret)) unless body.blank?
   end
 
   def decrypt_body(secret)
-    @body = decrypt(data, secret).force_encoding('UTF-8')
+    self.body = decrypt(data, secret).force_encoding('UTF-8')
   end
 
   private
