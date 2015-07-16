@@ -13,4 +13,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require aes
+//= require uuid-v4
 //= require_tree .
