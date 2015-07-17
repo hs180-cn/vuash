@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="192px" height="124px" viewBox="0 0 192 124" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Transparent Envelope</title>
+  <g id="notfound" fill="#fff" stroke="#a6b2bf" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5">
+    <rect id="svg-shadow" fill="#eee" stroke="none" x="0" y="116" width="192" height="8" rx="4"></rect>
+    <rect id="svg-base" x="6px" y="6px" width="180" height="114"></rect>
+    <path id="svg-bottom-flip" transform="translate(6, 6)" d="M172,106 L90,38 L8,106"></path>
+    <path id="svg-top-margin" stroke="none" transform="translate(6, 6)" d="M175,16 L97.3021988,78.5637969 C93.2693058,81.8111616 86.7329446,81.8129737 82.6978012,78.5637969 L5,16"></path>
+    <path id="svg-top-flip" transform="translate(6, 6)" d="M172,8 L97.3021988,67.5637969 C93.2693058,70.8111616 86.7329446,70.8129737 82.6978012,67.5637969 L8,8"></path>
+  </g>
+</svg>
