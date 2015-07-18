@@ -1,4 +1,7 @@
-%textarea.new-message-field(autofocus maxlength=16384 placeholder='Digite sua mensagem')
+%textarea.new-message-field(autofocus
+  placeholder='Digite sua mensagem'
+  maxlength=16384
+  name='body')
 
 = form_for @message do |f|
   = f.hidden_field :data

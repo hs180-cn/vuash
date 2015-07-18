@@ -11,16 +11,25 @@ RSpec.describe MessagesController, type: :controller do
 
   describe 'POST #create' do
     it 'returns http success' do
-      post :create, message: { body: 'Some text' }, secret: 'secret'
+      post :create, message: { data: '....' }
       expect(response).to have_http_status(:success)
     end
   end
 
-  describe 'GET #confirm' do
+  describe 'GET #show' do
     before { allow(Message).to receive(:find) { double }}
 
     it 'returns http success' do
-      get :confirm, id: 1, secret: 'secret'
+      get :show, id: 1
+      expect(response).to have_http_status(:success)
+    end
+  end
+
+  describe 'DELETE #destroy' do
+    before { allow(Message).to receive(:destroy) { double }}
+
+    it 'returns http success' do
+      delete :destroy, id: 1
       expect(response).to have_http_status(:success)
     end
   end
