@@ -1,11 +1,10 @@
-- if @message.errors.any?
-  %ul.errors
-    - @message.errors.full_messages.each do |message|
-      %li= message
+%textarea.new-message-field(autofocus
+  placeholder='Digite sua mensagem'
+  maxlength=16384
+  name='body')
 
 = form_for @message do |f|
-  = hidden_field_tag :secret, SecureRandom.uuid
-  = f.text_area :body, autofocus: true, maxlength: 16.kilobytes, placeholder: 'Digite sua mensagem.', class: 'new-message-field'
+  = f.hidden_field :data
   %div.padded
     %button.bt-blue
       %svg(width='16px' viewBox='0 0 16 16')

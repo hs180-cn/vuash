@@ -5,4 +5,8 @@
     Compartilhe o link abaixo com quem você quiser que leia.
     %br
     %strong A mensagem e o link serão destruídos após a leitura.
-  %input.share-link(type='text' readonly autofocus onclick='this.select();' value="#{polymorphic_url(@message, secret: params[:secret])}")
+
+  %input.share-link(readonly autofocus type='text')
+
+:coffee
+  $(document).trigger('hash', '#{polymorphic_url(@message)}')

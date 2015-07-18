@@ -1,11 +1,9 @@
 Dado(/^que eu estou na página de nova mensagem$/) do
-  visit root_path
+  visit messages_path
 end
 
 Dado(/^que eu preenchi o corpo da mensagem$/) do
-  within '#new_message' do
-    fill_in 'message_body', with: 'Isto é um teste.'
-  end
+  fill_in 'body', with: 'Isto é um teste.'
 end
 
 Quando(/^eu clicar em "(.*?)"$/) do |button|
@@ -13,5 +11,5 @@ Quando(/^eu clicar em "(.*?)"$/) do |button|
 end
 
 Então(/^eu receberei um link seguro$/) do
-  expect(page).to have_selector('input[value]')
+  expect(page).to have_selector('input')
 end

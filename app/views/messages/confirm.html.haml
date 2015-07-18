@@ -1,8 +1,0 @@
-%div.padded.center.narrow
-  = image_tag 'envelope.svg', alt: ''
-  %h1 Você recebeu uma mensagem secreta
-  %p
-    Esta mensagem foi criptografada
-    %strong e será destruída após a leitura.
-  = form_for @message, url: [@message, secret: params[:secret]], method: 'delete' do |f|
-    = f.submit 'Ler mensagem', class: 'bt-blue'
