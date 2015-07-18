@@ -1,6 +1,7 @@
+%textarea.new-message-field(autofocus maxlength=16384 placeholder='Digite sua mensagem')
+
 = form_for @message do |f|
   = f.hidden_field :data
-  = f.text_area :body, autofocus: true, maxlength: 16.kilobytes, placeholder: 'Digite sua mensagem.', class: 'new-message-field'
   %div.padded
     %button.bt-blue
       %svg(width='16px' viewBox='0 0 16 16')

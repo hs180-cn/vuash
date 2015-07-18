@@ -1,6 +1,4 @@
 class MessagesController < ApplicationController
-  skip_before_filter :verify_authenticity_token
-
   def new
     @message = Message.new
   end
@@ -9,11 +7,11 @@ class MessagesController < ApplicationController
     @message = Message.create(message_params)
   end
 
-  def confirm
+  def show
     @message = Message.find(params[:id])
   end
 
-  def show
+  def destroy
     @message = Message.destroy(params[:id])
   end
 
