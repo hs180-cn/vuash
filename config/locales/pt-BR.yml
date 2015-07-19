@@ -213,3 +213,7 @@ pt-BR:
     attributes:
       message:
         body: Texto
+
+  layouts:
+    application:
+      slogan: 'Mensagens criptografadas, acessíveis apenas uma vez.'
