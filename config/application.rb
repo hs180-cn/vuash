@@ -17,7 +17,7 @@ Bundler.require(*Rails.groups)
 
 module Vuash
   class Application < Rails::Application
-    config.i18n.default_locale = 'pt-BR'
+    config.i18n.default_locale = 'pt'
     config.time_zone = 'Brasilia'
 
     config.generators do |g|
