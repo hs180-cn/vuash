@@ -1,2 +1,67 @@
 ---
 en:
+
+  # Application strings
+
+  lang: en-US
+
+  slogan: Send secret messages safely.
+
+  logo-title: Vuash Mark (Paper Airplane)
+
+  # Site Footer
+
+  footer:
+    features:
+
+      safety:
+        title: Safety
+        text: Your message is encrypted right away with a secret key that isn't stored in our database. Only those with the link have access.
+        link-href: "#"
+        link-text_html: Read more &rarr;
+
+      open-source:
+        title: Open Source
+        text: Vuash's source code is open. This means that anyone can verify its integrity and make suggestions.
+        link-href: https://github.com/current/vuash
+        link-text_html: See the code &rarr;
+
+      donations:
+        title: Run by donations
+        text: We maintain Vuash with our own resources. You can help us cater with the costs by making a donation.
+        link-href: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TE4MN6P4NKANJ"
+        link-text_html: Donate with Paypal &rarr;
+
+  # New message page (root)
+
+  new-message:
+    placeholder: Type in your message…
+    icon-title: Lock icon
+    button-text: Create message
+
+  # Link page
+
+  created-message:
+    title: Message created
+    text_html: Share the following link with the person you want to read it.<br><strong>The message and the link will be destroyed after reading.</strong>
+
+  # Open message button page
+
+  open-message:
+    title: You received a secret message
+    text_html: This message's been encrypted <strong>and will be destroyed after reading.</strong>
+    button-text: Read message
+
+  # Invalid link page
+
+  not-found:
+    title: No message available
+    text: This link currently doesn't point to any messages available for reading. It may be that the message has already been read or never existed.
+    disclaimer: In Vuash, messages can only be read once. Check with the person that sent you this link.
+
+  # Call to action
+
+  cta:
+    icon-title: Lock icon
+    text: "Send safe messages that can only be accessed once with Vuash:"
+    link-text: Create a new message
