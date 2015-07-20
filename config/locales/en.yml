@@ -22,20 +22,20 @@ en:
 
       open-source:
         title: Open Source
-        text: Vuash's source code is open. This means that anyone can verify its integrity and make suggestions.
+        text: Vuash's source code is open. This means that anyone can verify its integrity and suggest improvements to the service.
         link-href: https://github.com/current/vuash
         link-text_html: See the code &rarr;
 
       donations:
-        title: Run by donations
-        text: We maintain Vuash with our own resources. You can help us cater with the costs by making a donation.
+        title: Supported by donations
+        text: We keep Vuash up and running with our own resources. You can help us cover the costs by making a donation.
         link-href: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TE4MN6P4NKANJ"
         link-text_html: Donate with Paypal &rarr;
 
   # New message page (root)
 
   new-message:
-    placeholder: Type in your message…
+    placeholder: Type your message…
     icon-title: Lock icon
     button-text: Create message
 
@@ -43,7 +43,7 @@ en:
 
   created-message:
     title: Message created
-    text_html: Share the following link with the person you want to read it.<br><strong>The message and the link will be destroyed after reading.</strong>
+    text_html: Share the following link with who you want to read it.<br><strong>The message will be destroyed after it's read.</strong>
 
   # Open message button page
 
@@ -56,8 +56,8 @@ en:
 
   not-found:
     title: No message available
-    text: This link currently doesn't point to any messages available for reading. It may be that the message has already been read or never existed.
-    disclaimer: In Vuash, messages can only be read once. Check with the person that sent you this link.
+    text: This link doesn't currently point to any messages available for reading. It may be that the message has already been read or never existed.
+    disclaimer: On Vuash, messages can only be read once. Check with who sent you this link.
 
   # Call to action
 

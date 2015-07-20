@@ -242,7 +242,7 @@ pt:
 
       donations:
         title: Mantido por doações
-        text: Nós mantemos o Vuash com nossos próprios recursos. Você pode nos ajudar a arcar com os custos fazendo uma doação.
+        text: Nós mantemos o Vuash funcionando com nossos próprios recursos. Você pode nos ajudar a arcar com os custos fazendo uma doação.
         link-href: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DFPLVT96GHZJA"
         link-text_html: Doar com Paypal &rarr;
 
@@ -257,7 +257,7 @@ pt:
 
   created-message:
     title: Mensagem criada
-    text_html: Compartilhe o link abaixo com quem você quiser que leia.<br><strong>A mensagem e o link serão destruídos após a leitura.</strong>
+    text_html: Compartilhe o link abaixo com quem você quiser que leia.<br><strong>A mensagem será destruída após a leitura.</strong>
 
   # Open message button page
 
