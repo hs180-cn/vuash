@@ -1,10 +1,7 @@
 %div.padded.center.narrow
   = image_tag 'paper.svg', alt: ''
-  %h1 Mensagem criada
-  %p
-    Compartilhe o link abaixo com quem você quiser que leia.
-    %br
-    %strong A mensagem e o link serão destruídos após a leitura.
+  %h1= t('created-message.title')
+  %p= t('created-message.text_html')
 
   %input.share-link(readonly autofocus type='text')
 

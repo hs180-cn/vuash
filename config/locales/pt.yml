@@ -1,5 +1,5 @@
 ---
-pt-BR:
+pt:
   date:
     abbr_day_names:
     - Dom
@@ -213,3 +213,69 @@ pt-BR:
     attributes:
       message:
         body: Texto
+
+
+  # Application strings
+
+  lang: pt-BR
+
+  slogan: Envie mensagens secretas de forma segura.
+
+  logo-title: Marca do Vuash (Avião de Papel)
+
+  # Site Footer
+
+  footer:
+    features:
+
+      safety:
+        title: Segurança
+        text: Sua mensagem é criptografada na hora com uma chave secreta que não é guardada no banco de dados. Apenas quem tem o link pode acessar.
+        link-href: "#"
+        link-text_html: Saiba mais &rarr;
+
+      open-source:
+        title: Open Source
+        text: O código do Vuash é aberto. Isso significa que qualquer pessoa interessada pode verificar sua integridade e sugerir melhorias.
+        link-href: https://github.com/current/vuash
+        link-text_html: Veja o código &rarr;
+
+      donations:
+        title: Mantido por doações
+        text: Nós mantemos o Vuash funcionando com nossos próprios recursos. Você pode nos ajudar a arcar com os custos fazendo uma doação.
+        link-href: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DFPLVT96GHZJA"
+        link-text_html: Doar com Paypal &rarr;
+
+  # New message page (root)
+
+  new-message:
+    placeholder: Digite sua mensagem…
+    icon-title: Ícone de cadeado
+    button-text: Criar mensagem
+
+  # Link page
+
+  created-message:
+    title: Mensagem criada
+    text_html: Compartilhe o link abaixo com quem você quiser que leia.<br><strong>A mensagem será destruída após a leitura.</strong>
+
+  # Open message button page
+
+  open-message:
+    title: Você recebeu uma mensagem secreta
+    text_html: Esta mensagem foi criptografada <strong>e será destruída após a leitura.</strong>
+    button-text: Ler mensagem
+
+  # Invalid link page
+
+  not-found:
+    title: Nenhuma mensagem disponível
+    text: Este link não leva para nenhuma mensagem disponível para leitura no momento. Pode ser que a mensagem já tenha sido lida ou nunca existiu.
+    disclaimer: No Vuash, as mensagens só podem ser lidas uma vez. Confira com quem te enviou este link.
+
+  # Call to action
+
+  cta:
+    icon-title: Ícone de cadeado
+    text: "Envie mensagens seguras que só podem ser acessadas uma vez com o Vuash:"
+    link-text: Criar nova mensagem

@@ -13,52 +13,51 @@
     %link(rel='icon' href='favicon.png')
 
     / Facebook
-    %meta(property="og:url" content="https://vua.sh")
-    %meta(property="og:title" content="Vuash")
-    %meta(property="og:description" content="Mensagens criptografadas, acessíveis apenas uma vez.")
-    %meta(property="og:image" content="favicon.png")
+    %meta(property='og:url' content='https://vua.sh')
+    %meta(property='og:title' content='Vuash')
+    %meta(property='og:description' content="#{t('slogan')}")
+    %meta(property='og:image' content='favicon.png')
 
-    %title Vuash - Mensagens criptografadas, acessíveis apenas uma vez.
+    %title Vuash - #{t('slogan')}
 
     = stylesheet_link_tag 'application', 'data-turbolinks-track' => true, 'media' => 'all'
     = javascript_include_tag 'application', 'data-turbolinks-track' => true
     = csrf_meta_tags
 
-  %body
+  %body(lang="#{t('lang')}")
     %div.site-wrap
 
       %header.site-header(role='banner')
         %a.logo-vuash(href="/")
           %svg(height='30px' viewBox='0 0 106 97')
-            %title Vuash Paper Airplane Mark
+            %title= t('logo-title')
             %path(id='vuash-mark' fill='#4a90e2' d='M2.99760217e-15,3.99306484 C2.77555756e-15,0.687680951 2.43876573,-0.874545286 5.44713571,0.51377346 L102.89866,43.4862265 C105.905166,44.873685 105.90703,51.1254547 102.89866,52.5137735 L5.44713571,95.4862265 C2.44062987,96.873685 9.88098492e-15,95.3168135 9.65894032e-15,92.0069352 L7.23556427e-15,61.818444 C7.10237572e-15,60.1592869 1.3243002,58.565268 2.94293644,58.2609181 L39.802494,51.3302669 C44,50.9999999 44,44.9999999 39.802494,44.6704158 L2.94293644,37.7397646 C1.31759752,37.4341544 1.21222207e-16,35.8440787 2.71304116e-16,34.1821769 L2.99760217e-15,3.99306484 Z')
           Vuash
-        %p.slogan
-          Mensagens criptografadas, acessíveis apenas uma vez.
+        %p.slogan= t('slogan')
 
       %main.site-body(role='main')= yield
 
       %footer.site-footer(role='complementary')
         %ul.features
+
           %li
-            %h2 Segurança
+            %h2= t('footer.features.safety.title')
             %p
-              Sua mensagem é criptografada na hora com uma chave secreta que não é guardada no banco de dados. Apenas quem tem o link pode acessar.
+              = t('footer.features.safety.text')
               %br
               -# TODO: Link to article/wiki about security
-              %a(href='#' target='_blank') Saiba mais &rarr;
+              %a(href='#{t('footer.features.safety.link-href')}' target='_blank')= t('footer.features.safety.link-text_html')
+
           %li
-            %h2 Open Source
+            %h2= t('footer.features.open-source.title')
             %p
-              O código do Vuash é aberto. Isso significa que qualquer pessoa interessada pode verificar sua integridade e sugerir melhorias.
+              = t('footer.features.open-source.text')
               %br
-              %a(href='https://github.com/current/vuash' target='_blank') Veja o código &rarr;
+              %a(href='#{t('footer.features.open-source.link-href')}' target='_blank')= t('footer.features.open-source.link-text_html')
+
           %li
-            %h2 Mantido por doações
+            %h2= t('footer.features.donations.title')
             %p
-              Nós mantemos o Vuash com nossos próprios recursos. Você pode nos ajudar a arcar com os custos fazendo uma doação.
+              = t('footer.features.donations.text')
               %br
-              -# PT-BR
-              %a(href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DFPLVT96GHZJA' target='_blank') Doar com Paypal &rarr;
-              -# EN-US
-                %a(href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TE4MN6P4NKANJ') Donate with Paypal &rarr;
+              %a(href="#{t('footer.features.donations.link-href')}" target='_blank')= t('footer.features.donations.link-text_html')
