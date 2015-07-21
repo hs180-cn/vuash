@@ -1,3 +1,5 @@
+%div.validation-error(aria-hidden role='alert')= t('validation-error')
+
 %textarea.new-message-field(autofocus placeholder="#{t('new-message.placeholder')}" maxlength=16384 name='body')
 
 = form_for @message do |f|
