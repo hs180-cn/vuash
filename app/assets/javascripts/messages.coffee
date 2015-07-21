@@ -1,6 +1,8 @@
 $(document).on 'submit', '.new_message', ->
-  secret = UUID()
   body = $('textarea').val()
+  return false if body is ''
+
+  secret = UUID()
   encrypted = CryptoJS.AES.encrypt(body, secret)
 
   $('#message_data').val(encrypted)
