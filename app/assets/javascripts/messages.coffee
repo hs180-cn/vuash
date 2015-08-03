@@ -1,6 +1,9 @@
 $(document).on 'submit', '.new_message', ->
   body = $('textarea').val()
-  return false if body is ''
+
+  if body is ''
+    $('.validation-error').addClass('visible').attr('aria-hidden', false)
+    return false
 
   secret = UUID()
   encrypted = CryptoJS.AES.encrypt(body, secret)
