@@ -253,6 +253,10 @@ pt:
     icon-title: Ícone de cadeado
     button-text: Criar mensagem
 
+  # Validation Error
+
+  validation-error: Sua mensagem está vazia. Digite alguma coisa antes de criá-la.
+
   # Link page
 
   created-message:

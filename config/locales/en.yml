@@ -39,6 +39,10 @@ en:
     icon-title: Lock icon
     button-text: Create message
 
+  # Validation Error
+
+  validation-error: Your message is empty. Type something before creating it.
+
   # Link page
 
   created-message:
