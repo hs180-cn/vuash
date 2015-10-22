@@ -3,7 +3,7 @@
   %h1= t('created-message.title')
   %p= t('created-message.text_html')
 
-  %input.share-link(readonly autofocus type='text')
+  %div.share-link
 
 :coffee
   $(document).trigger('hash', '#{polymorphic_url(@message)}')

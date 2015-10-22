@@ -22,7 +22,4 @@ $(document).on 'submit', '.edit_message', ->
   this.action += location.hash
 
 $(document).on 'hash', (ev, url) ->
-  $('input.share-link').val(url + location.hash)
-
-$(document).on 'click', 'input.share-link', ->
-  this.select()
+  $('.share-link').text(url + location.hash)
