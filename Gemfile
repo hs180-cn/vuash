@@ -8,7 +8,6 @@ gem 'haml-rails'
 gem 'sass-rails'
 gem 'normalize-rails'
 gem 'bourbon'
-gem 'neat'
 
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'

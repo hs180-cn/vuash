@@ -1,6 +1,5 @@
 @import "normalize-rails"
 @import "bourbon"
-@import "neat"
 
 
 // Fonts
@@ -26,6 +25,9 @@ $c-blue: #4a90e2
 
 
 // Base styles
+
+*
+  box-sizing: border-box
 
 body
   background-color: $c-dark
@@ -84,7 +86,8 @@ strong
 // Main containers
 
 .site-wrap
-  +outer-container($local-max-width: 860px)
+  margin: 0 auto
+  max-width: 860px
 
 .site-body
   background-color: $c-white
@@ -211,11 +214,14 @@ strong
     text-decoration: none
 
 .features
+  display: flex
+  justify-content: space-between
+  list-style: none
   margin: 0
   padding: 0
 
   li
-    +span-columns(4)
+    width: 31%
 
   h2
     font:
