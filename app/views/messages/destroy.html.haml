@@ -1,5 +1,10 @@
 %div.padded
   %pre.message
+  %div.wrong-key.center.narrow(aria-hidden='true' style='display: none;')
+    = image_tag 'destroyed.svg', alt: ''
+    %h1= t('wrong-key.title')
+    %p= t('wrong-key.text_html')
+
   %p.cta
     %svg(width='16px' viewBox='0 0 16 16')
       %title= t('cta.icon-title')

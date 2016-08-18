@@ -18,6 +18,10 @@ $(document).on 'decrypt', (ev, data)->
 
   $('pre.message').text(decrypted.toString(CryptoJS.enc.Utf8))
 
+  if $('pre.message').is(':empty')
+    $('pre.message').remove()
+    $('.wrong-key').attr('aria-hidden', 'false').show()
+
 $(document).on 'submit', '.edit_message', ->
   this.action += location.hash
 

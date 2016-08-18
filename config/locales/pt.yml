@@ -277,6 +277,12 @@ pt:
     text: Este link não leva para nenhuma mensagem disponível para leitura no momento. Pode ser que a mensagem já tenha sido lida ou nunca existiu.
     disclaimer: No Vuash, as mensagens só podem ser lidas uma vez. Confira com quem te enviou este link.
 
+  # Wrong Key
+
+  wrong-key:
+    title: Mensagem Destruída
+    text_html: Você tentou abrir esta mensagem com a chave errada e, <strong>por medida de segurança, ela foi destruída.</strong> Peça para o remetente criar uma nova mensagem e compartilhar o link correto com você.
+
   # Call to action
 
   cta:

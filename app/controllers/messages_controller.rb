@@ -9,6 +9,8 @@ class MessagesController < ApplicationController
 
   def show
     @message = Message.find(params[:id])
+  rescue ActiveRecord::RecordNotFound
+    render 'missing'
   end
 
   def destroy

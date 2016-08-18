@@ -63,6 +63,12 @@ en:
     text: This link doesn't currently point to any messages available for reading. It may be that the message has already been read or never existed.
     disclaimer: On Vuash, messages can only be read once. Check with who sent you this link.
 
+  # Wrong Key
+
+  wrong-key:
+    title: Message Destroyed
+    text_html: You tried to open this message with the wrong key and, <strong>for security measures, it has been destroyed.</strong> Ask the sender to create a new message and share the correct link with you.
+
   # Call to action
 
   cta:
