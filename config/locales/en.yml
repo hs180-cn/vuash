@@ -16,7 +16,7 @@ en:
 
       safety:
         title: Safety
-        text: Your message is encrypted right away with a secret key that isn't stored in our database. Only those with the link have access.
+        text: Your message is encrypted right away with a secret key that isn't stored in our database. Only someone with the link can open it.
         link-href: "#"
         link-text_html: Read more &rarr;
 

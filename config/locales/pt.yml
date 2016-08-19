@@ -230,7 +230,7 @@ pt:
 
       safety:
         title: Segurança
-        text: Sua mensagem é criptografada na hora com uma chave secreta que não é guardada no banco de dados. Apenas quem tem o link pode acessar.
+        text: Sua mensagem é criptografada na hora com uma chave secreta que não é guardada no banco de dados. Apenas alguém com o link pode abrí-la.
         link-href: "#"
         link-text_html: Saiba mais &rarr;
 
