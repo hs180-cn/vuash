@@ -3,7 +3,8 @@ en:
 
   # Application strings
 
-  lang: en
+  lang-dash: en-US
+  lang-underscore: en_US
 
   slogan: Send secret messages safely.
 

@@ -217,7 +217,8 @@ pt:
 
   # Application strings
 
-  lang: pt
+  lang-dash: pt-BR
+  lang-underscore: pt_BR
 
   slogan: Envie mensagens secretas de forma segura.
 
