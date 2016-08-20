@@ -60,8 +60,7 @@ en:
 
   not-found:
     title: No message available
-    text: This link doesn't currently point to any messages available for reading. It may be that the message has already been read or never existed.
-    disclaimer: On Vuash, messages can only be read once. Check with who sent you this link.
+    text_html: This link doesn't currently point to any available messages.<br>It may be that the message has already been read or never existed.
 
   # Wrong Key
 

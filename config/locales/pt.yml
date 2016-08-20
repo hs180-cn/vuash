@@ -274,8 +274,7 @@ pt:
 
   not-found:
     title: Nenhuma mensagem disponível
-    text: Este link não leva para nenhuma mensagem disponível para leitura no momento. Pode ser que a mensagem já tenha sido lida ou nunca existiu.
-    disclaimer: No Vuash, as mensagens só podem ser lidas uma vez. Confira com quem te enviou este link.
+    text_html: Este link não leva à nenhuma mensagem disponível no momento.<br>Pode ser que a mensagem já tenha sido lida ou nunca existiu.
 
   # Wrong Key
 
