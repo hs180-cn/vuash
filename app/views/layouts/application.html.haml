@@ -12,10 +12,16 @@
     %link(rel='icon' href='favicon.png')
 
     / Facebook
-    %meta(property='og:url' content='https://vua.sh')
-    %meta(property='og:title' content='Vuash')
+    %meta(property='og:url' content='http://vua.sh')
+    %meta(property='og:type' content='website')
+    %meta(property='og:image' content='http://vua.sh/favicon.png')
     %meta(property='og:description' content="#{t('slogan')}")
-    %meta(property='og:image' content='favicon.png')
+    %meta(property='og:site_name' content='Vuash')
+    %meta(property='og:title' content='Vuash')
+    %meta(property='og:locale' content="#{t('lang')}")
+
+    // Android
+    %meta(name='theme-color' content='#4a90e2')
 
     / GoSquared
     :javascript
@@ -35,6 +41,7 @@
       ga('send', 'pageview');
 
     %title Vuash - #{t('slogan')}
+    %meta(name='description' content="#{t('slogan')}")
 
     = stylesheet_link_tag 'application', 'data-turbolinks-track' => true, 'media' => 'all'
     = javascript_include_tag 'application', 'data-turbolinks-track' => true
