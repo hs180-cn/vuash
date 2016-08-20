@@ -2,8 +2,8 @@
 
 # Vuash
 
-![Heroku](https://heroku-badge.herokuapp.com/?app=vuash&style=flat)
-![GitHub release](https://img.shields.io/github/release/current/vuash.svg)
+[![Heroku](https://heroku-badge.herokuapp.com/?app=vuash&style=flat)](http://vuash.herokuapp.com)
+[![GitHub release](https://img.shields.io/github/release/current/vuash.svg)](https://github.com/current/vuash/releases/latest)
 
 Vuash is a simple web app that lets you share plain text through a single access link.
 
