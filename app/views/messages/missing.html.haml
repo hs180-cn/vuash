@@ -1,8 +1,8 @@
-%div.padded.center.narrow
-  = image_tag 'notfound.svg', alt: ''
-  %h1= t('not-found.title')
-  %p= t('not-found.text')
-  %p= t('not-found.disclaimer')
+%div.padded
+  %div.not-found.center.narrow
+    = image_tag 'notfound.svg', alt: ''
+    %h1= t('not-found.title')
+    %p= t('not-found.text_html')
   %p.cta
     %svg(width='16px' viewBox='0 0 16 16')
       %title= t('cta.icon-title')
