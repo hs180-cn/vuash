@@ -1,0 +1,85 @@
+---
+zh-TW:
+
+  # Application strings
+
+  lang-dash: zh-TW
+  lang-underscore: zh_TW
+
+  slogan: 發送秘密信息安全
+
+  logo-title: Vuash Mark (Paper Airplane)
+
+  # Site Footer
+
+  footer:
+    features:
+
+      safety:
+        title: Safety - 安全
+        text: Your message is encrypted right away with a secret key that isn't stored in our database.
+              Only someone with the link can open it.<br>
+              你的加密訊息的金鑰並未被我們儲存在資料庫，只有擁有連結才可以打開。
+        link-href: "#"
+        link-text_html: Read more &rarr;
+
+      open-source:
+        title: Open Source - 開源
+        text: Vuash's source code is open. This means that anyone can verify its integrity and suggest improvements to the service.<br/>
+              Vuash 是個開源專案，任何人都可以驗證並建議改進這專案。
+        link-href: https://github.com/current/vuash
+        link-text_html: See the code &rarr;
+
+      donations:
+        title: Supported by donations - 支持捐款
+        text: We keep Vuash up and running with our own resources. You can help us cover the costs by making a donation.
+        link-href: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TE4MN6P4NKANJ"
+        link-text_html: Donate with Paypal &rarr;
+
+  # New message page (root)
+
+  new-message:
+    placeholder: 輸入你的訊息…
+    icon-title: Lock icon
+    button-text: 建立加密訊息
+
+  # Validation Error
+
+  validation-error: 你沒有輸入任何訊息. 請輸入一些文字吧！
+
+  # Link page
+
+  created-message:
+    title: 加密訊息已建立
+    text_html: 分享以下的連結給你想要讀取的人.
+               <br><strong>這訊息被讀取後將被刪除！</strong>
+
+  # Open message button page
+
+  open-message:
+    title: 您收到一封加密訊息
+    text_html: 這訊息已被加密
+               <strong>在被讀取後將被刪除</strong>
+    button-text: 讀取訊息
+
+  # Invalid link page
+
+  not-found:
+    title: 沒有訊息
+    text_html: 這連結目前沒有任何訊息。
+               <br>可能已被讀取或根本不存在。
+
+  # Wrong Key
+
+  wrong-key:
+    title: 訊息已被銷毀
+    text_html: 您嘗試使用錯誤的加密金鑰開啟訊息,
+               <strong>基於安全性我們已經銷毀訊息！</strong><br>
+               詢問你的寄送者重新建立一個新的訊息給您。
+
+  # Call to action
+
+  cta:
+    icon-title: Lock icon
+    text: "發送只能被讀取一次的安全訊息 with Vuash:"
+    link-text: 建立一個新的訊息
