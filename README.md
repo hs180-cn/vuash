@@ -1,5 +1,7 @@
 ![](https://cloud.githubusercontent.com/assets/62244/17832954/31b0879c-66e7-11e6-88e5-e9ed495007ab.png)
 
+# Vuash
+
 [![Heroku](https://heroku-badge.herokuapp.com/?app=vuash&style=flat)](http://vuash.herokuapp.com)
 [![GitHub release](https://img.shields.io/github/release/current/vuash.svg)](https://github.com/current/vuash/releases/latest)
 
