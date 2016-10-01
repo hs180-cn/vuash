@@ -48,30 +48,30 @@ es:
 
   created-message:
     title: Mensaje creado
-    text_html: Comparte la dirección abajo con quienes quieres que leas. <br><strong> El mensaje será destruido luego de la lectura. </strong>
+    text_html: Comparte la dirección abajo con quienes quieres que leas.<br><strong>El mensaje será destruido luego de la lectura.</strong>
 
   # Open message button page
 
   open-message:
     title: Recibiste un mensaje secreto
-    text_html: Este mensaje fue encriptado <strong> y será destruido luego de la lectura. </strong>
+    text_html: Este mensaje fue encriptado <strong>y será destruido luego de la lectura.</strong>
     button-text: Leer el mensaje
 
   # Invalid link page
 
   not-found:
     title: Ningún mensaje disponible
-    text_html: Esta dirección no lleva a ningún mensaje disponible en el momento <br> Puede ser que el mensaje haya sido leído o nunca existió
+    text_html: Esta dirección no lleva a ningún mensaje disponible en el momento.<br>Puede ser que el mensaje haya sido leído o nunca existió.
 
   # Wrong Key
 
   wrong-key:
     title: Mensaje destruido
-    text_html: Intentaste abrir este mensaje con la clave errada y, <strong> por medidas de seguridad, él fue destruido </strong>. Pide al remitente que elabore un nuevo mensaje y comparta la dirección contigo.
+    text_html: Intentaste abrir este mensaje con la clave errada y, <strong>por medidas de seguridad, él fue destruido</strong>. Pide al remitente que elabore un nuevo mensaje y comparta la dirección contigo.
 
   # Call to action
 
   cta:
     icon-title: Ícono de candado
-    text: "Envie mensajes seguros que solo pueda accederse una sola vez con el Vuash:".
-    link-text: Crear nuevo mensaje.
+    text: "Envie mensajes seguros que solo pueda accederse una sola vez con el Vuash:"
+    link-text: Crear nuevo mensaje
