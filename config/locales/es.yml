@@ -1,0 +1,77 @@
+---
+es:
+
+  # Application strings
+
+  lang-dash: es
+  lang-underscore: es
+
+  slogan: Envie mensajes secretos de forma segura.
+
+  logo-title: Marca del Vuash (Avión de Papel)
+
+  # Site Footer
+
+  footer:
+    features:
+
+      safety:
+        title: Seguridad
+        text: Su mensaje es encriptado en el momento con una clave secreta que no es almacenada en el banco de datos. Solamente alguien con el link podrá accederla.
+        link-href: "#"
+        link-text_html: Sepa más &rarr;
+
+      open-source:
+        title: Open Source
+        text: El código del Vuash es abierto. Eso significa que cualquier persona interesada puede verificar su integridad y hacer sugerencias.
+        link-href: https://github.com/current/vuash
+        link-text_html: Ve el código &rarr;
+
+      donations:
+        title: Mantenido por donaciones
+        text: Nosotros mantenemos el Vuash funcionando con nuestros propios recursos. Puedes ayudarnos con los costos haciendo donaciones.
+        link-href: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DFPLVT96GHZJA"
+        link-text_html: Donar con Paypal &rarr;
+
+  # New message page (root)
+
+  new-message:
+    placeholder: Digite su mensaje…
+    icon-title: Ícono de candado
+    button-text: Crear mensaje
+
+  # Validation Error
+
+  validation-error: Su mensaje está vacío. Digite algo antes de crearlo.
+
+  # Link page
+
+  created-message:
+    title: Mensaje creado
+    text_html: Comparte la dirección abajo con quienes quieres que leas. <br><strong> El mensaje será destruido luego de la lectura. </strong>
+
+  # Open message button page
+
+  open-message:
+    title: Recibiste un mensaje secreto
+    text_html: Este mensaje fue encriptado <strong> y será destruido luego de la lectura. </strong>
+    button-text: Leer el mensaje
+
+  # Invalid link page
+
+  not-found:
+    title: Ningún mensaje disponible
+    text_html: Esta dirección no lleva a ningún mensaje disponible en el momento <br> Puede ser que el mensaje haya sido leído o nunca existió
+
+  # Wrong Key
+
+  wrong-key:
+    title: Mensaje destruido
+    text_html: Intentaste abrir este mensaje con la clave errada y, <strong> por medidas de seguridad, él fue destruido </strong>. Pide al remitente que elabore un nuevo mensaje y comparta la dirección contigo.
+
+  # Call to action
+
+  cta:
+    icon-title: Ícono de candado
+    text: "Envie mensajes seguros que solo pueda accederse una sola vez con el Vuash:".
+    link-text: Crear nuevo mensaje.
