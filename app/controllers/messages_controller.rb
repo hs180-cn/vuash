@@ -1,4 +1,6 @@
 class MessagesController < ApplicationController
+  protect_from_forgery except: :create
+
   def new
     @message = Message.new
   end
