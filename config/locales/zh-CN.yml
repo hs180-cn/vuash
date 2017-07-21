@@ -1,0 +1,77 @@
+---
+zh-CN:
+
+  # Application strings
+
+  lang-dash: zh-CN
+  lang-underscore: zh_CN
+
+  slogan: 安全发送信息
+
+  logo-title: Vuash图标（纸飞机）
+
+  # Site Footer
+
+  footer:
+    features:
+
+      safety:
+        title: 安全
+        text: 您的加密信息的秘钥并不会存储在数据库中，您拥有链接即可打开。
+        link-href: "#"
+        link-text_html: 阅读更多 &rarr;
+
+      open-source:
+        title: 开源
+        text: Vuash 是个开源项目，任何人都可以体验并改进这个项目。
+        link-href: "https://github.com/current/vuash"
+        link-text_html: 查看代码 &rarr;
+
+      donations:
+        title: 支持捐款
+        text: 我们维护Vuash使用的是我们自己的资源。您可以通过捐款帮助我们。
+        link-href: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TE4MN6P4NKANJ"
+        link-text_html: 请通过Paypal捐款 &rarr;
+
+  # New message page (root)
+
+  new-message:
+    placeholder: 输入信息…
+    icon-title: 锁定图标
+    button-text: 创建加密信息
+
+  # Validation Error
+
+  validation-error: 您还没有输入任何内容。请输入一些内容吧。
+
+  # Link page
+
+  created-message:
+    title: 加密信息已完成
+    text_html: 分享以下的链接给想要阅读信息的人。<br><strong>此信息被读取后将被删除。</strong>
+
+  # Open message button page
+
+  open-message:
+    title: 您收到了一条已加密的信息
+    text_html: 此信息已被加密，<strong>此信息被读取后将被删除。</strong>
+    button-text: 读取信息
+
+  # Invalid link page
+
+  not-found:
+    title: 没有信息
+    text_html: 此链接下没有信息。<br>可能信息已被读取或链接地址错误。
+
+  # Wrong Key
+
+  wrong-key:
+    title: 信息已被销毁
+    text_html: 您正尝试用错误的秘钥来打开信息<strong>基于安全性，我们已经销毁此信息。</strong><br>请询问发信人让他重新给您发送一次信息。
+
+  # Call to action
+
+  cta:
+    icon-title: 锁定图标
+    text: "使用Vuash发送阅后即焚的加密信息:"
+    link-text: 创建一条新信息
