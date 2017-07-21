@@ -23,20 +23,20 @@ jp-JP:
 
       open-source:
         title: オープンソース
-        text: Vuashのソースコードはオープンです。 つまり、誰でもコードの完全性を検証し、サービスの改善を提案することができます。
+        text: Vuashのソースコードはオープンです。つまり、誰でもコードの完全性を検証し、サービスの改善を提案することができます。
         link-href: https://github.com/current/vuash
         link-text_html: コードを見ます &rarr;
 
       donations:
         title: 寄付金による支援
-        text: 私たちの資源によってVuashを維持し、動かし続けます。 寄付をすることにより、費用の一部をまかなうことができます。
+        text: 私たちの資源によってVuashを維持し、動かし続けます。寄付をすることにより、費用の一部をまかなうことができます。
         link-href: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TE4MN6P4NKANJ"
         link-text_html: Paypalで寄付します &rarr;
 
   # New message page (root)
 
   new-message:
-    placeholder: メッセージを入力してください...
+    placeholder: メッセージを入力してください…
     icon-title: ロックアイコン
     button-text: メッセージを作成します
 
@@ -67,7 +67,7 @@ jp-JP:
 
   wrong-key:
     title: メッセージが破棄されました
-    text_html: あなたはこのメッセージを間違ったキーで開けようとしたため、<strong>セキュリティ対策によりメッセージは破棄されました。</strong> 送信者に新しいメッセージを作成し、あなたに正しいリンクを共有するよう依頼してください。
+    text_html: あなたはこのメッセージを間違ったキーで開けようとしたため、<strong>セキュリティ対策によりメッセージは破棄されました。</strong>送信者に新しいメッセージを作成し、あなたに正しいリンクを共有するよう依頼してください。
 
   # Call to action
 
