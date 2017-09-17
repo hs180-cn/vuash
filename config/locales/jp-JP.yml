@@ -1,0 +1,77 @@
+---
+jp-JP:
+
+  # Application strings
+ 
+  lang-dash: jp-JP
+  lang-underscore: jp_JP
+
+  slogan: 秘密のメッセージを安全に送信。
+
+  logo-title: Vuashマーク（紙飛行機）
+
+  # Site Footer
+
+  footer:
+    features:
+
+      safety:
+        title: 安全性
+        text: メッセージは瞬時にシークレットキーで暗号化され、シークレットキーはデータベースには残りません。メッセージは、キーを持っている人しか開くことが出来ません。
+        link-href: "#"
+        link-text_html: 詳細説明 &rarr;
+
+      open-source:
+        title: オープンソース
+        text: Vuashはオープンソースです。つまり、誰でもコードの完全性の検証が出来て、改善等を提案することも出来ます。
+        link-href: https://github.com/current/vuash
+        link-text_html: ソースコードを見る &rarr;
+
+      donations:
+        title: 寄付金による支援
+        text: Vuashの運営は関係者の資金で維持されています。寄付をして頂けると、この維持費の一部を賄うことが可能になります。
+        link-href: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TE4MN6P4NKANJ"
+        link-text_html: Paypalで寄付する &rarr;
+
+  # New message page (root)
+
+  new-message:
+    placeholder: メッセージを入力してください…
+    icon-title: ロックアイコン
+    button-text: メッセージを作成する
+
+  # Validation Error
+
+  validation-error: 何も入力されていません。メッセージを作成する前に、文章を入力してください。
+
+  # Link page
+
+  created-message:
+    title: メッセージが作成されました
+    text_html: 下記リンクを、メッセージを読んで欲しい人と共有してください。<br><strong>メッセージは読まれた後、自動的に破壊されます</strong>。
+
+  # Open message button page
+
+  open-message:
+    title: あなたは秘密のメッセージを受け取りました
+    text_html: このメッセージは暗号化されていて<strong>読んだ後に破壊されます。</strong>
+    button-text: メッセージを読む
+
+  # Invalid link page
+
+  not-found:
+    title: 現在、読めるメッセージはありません
+    text_html: このリンクには現在、読めるメッセージはありません。<br>メッセージはすでに読まれたか、存在しない可能性があります。
+
+  # Wrong Key
+
+  wrong-key:
+    title: メッセージが破壊されました
+    text_html: 間違ったキーで開けようとしたため、<strong>セキュリティ対策により、メッセージは破壊されました。</strong>送信者に、新しいメッセージを作成し、再度リンクを共有するよう依頼して下さい。
+
+  # Call to action
+
+  cta:
+    icon-title: ロックアイコン
+    text: "Vuashで、一度しか読むことの出来ない、安全なメッセージを送りましょう："
+    link-text: メッセージを作成する
