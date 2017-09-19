@@ -1,10 +1,10 @@
 ---
-jp-JP:
+jp:
 
   # Application strings
  
-  lang-dash: jp-JP
-  lang-underscore: jp_JP
+  lang-dash: jp
+  lang-underscore: jp
 
   slogan: 秘密のメッセージを安全に送信。
 
