@@ -11,5 +11,5 @@ Quando(/^eu clicar em "(.*?)"$/) do |button|
 end
 
 Então(/^eu receberei um link seguro$/) do
-  expect(page).to have_selector('input')
+  expect(page).to have_selector('div.share-link')
 end
