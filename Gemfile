@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
-ruby '2.2.2'
+ruby '2.4.2'
 
-gem 'rails', '4.2.3'
+gem 'rails', '4.2.10'
 gem 'pg'
 
 gem 'haml-rails'
@@ -12,9 +12,6 @@ gem 'bourbon'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 
-# See https://github.com/rails/execjs#readme for more supported runtimes
-# gem 'therubyracer', platforms: :ruby
-
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
@@ -23,13 +20,11 @@ gem 'http_accept_language'
 
 gem 'puma'
 
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
-
-group :development, :test do
-  gem 'byebug'
+group :development do
   gem 'web-console', '~> 2.0'
-  gem 'spring'
+end
+
+group :test do
   gem 'rspec-rails'
   gem 'cucumber-rails', require: false
   gem 'capybara'
@@ -37,3 +32,7 @@ group :development, :test do
   gem 'database_cleaner'
 end
 
+group :development, :test do
+  gem 'byebug'
+  gem 'spring'
+end
