@@ -1,8 +1,4 @@
-![](https://cloud.githubusercontent.com/assets/62244/17832954/31b0879c-66e7-11e6-88e5-e9ed495007ab.png)
-
 # Vuash
-
-[![GitHub release](https://img.shields.io/github/release/current/vuash.svg)](https://github.com/current/vuash/releases/latest)
 
 Vuash is a simple web app that lets you share plain text through a single access link.
 
@@ -32,7 +28,7 @@ All encryption is done by the browser, no secret keys touch the server, and only
 
 ## Hosted app
 
-The app running at http://vua.sh is hosted on Heroku, with automatic deploys from this [master branch](https://github.com/current/vuash/tree/master/). Production code is always paired with this repository.
+The app running at http://vua.sh is hosted on Heroku, with automatic deploys from this [master branch](https://gitlab.com/broworkers/vuash/tree/master/). Production code is always paired with this repository.
 
 
 ## Support the project
