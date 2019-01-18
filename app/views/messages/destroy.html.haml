@@ -10,7 +10,7 @@
       %title= t('cta.icon-title')
       %path(id='icon-lock' fill='#fff' fill-rule='evenodd' d="M4,7 L4,4 C4,2.34314575 5.33902013,1 7.00166547,1 L8.99833453,1 C10.6561086,1 12,2.34651712 12,4 L12,7 L13,7 L13,15 L3,15 L3,7 L4,7 Z M7.0093689,3 L8.9906311,3 C9.54809015,3 10,3.44266033 10,3.99895656 L10,7 L6,7 L6,3.99895656 C6,3.44724809 6.44335318,3 7.0093689,3 Z M7,10.0093689 C7,9.45190985 7.44386482,9 8,9 C8.55228475,9 9,9.44335318 9,10.0093689 L9,13 L7,13 L7,10.0093689 Z")
     = t('cta.text')
-    = link_to t('cta.link-text'), messages_path, onclick: "_gs('event', 'Clicked CTA link at message page')"
+    = link_to t('cta.link-text'), messages_path
 
 :coffee
   $(document).trigger('decrypt', '#{@message.data}')

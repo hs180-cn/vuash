@@ -44,7 +44,7 @@
     %div.site-wrap
 
       %header.site-header(role='banner')
-        = link_to messages_path, class: 'logo-vuash', onclick: "_gs('event', 'Clicked Logo link')" do
+        = link_to messages_path, class: 'logo-vuash' do
           %svg(height='30px' viewBox='0 0 106 97')
             %title= t('logo-title')
             %path(id='vuash-mark' fill='#4a90e2' d='M2.99760217e-15,3.99306484 C2.77555756e-15,0.687680951 2.43876573,-0.874545286 5.44713571,0.51377346 L102.89866,43.4862265 C105.905166,44.873685 105.90703,51.1254547 102.89866,52.5137735 L5.44713571,95.4862265 C2.44062987,96.873685 9.88098492e-15,95.3168135 9.65894032e-15,92.0069352 L7.23556427e-15,61.818444 C7.10237572e-15,60.1592869 1.3243002,58.565268 2.94293644,58.2609181 L39.802494,51.3302669 C44,50.9999999 44,44.9999999 39.802494,44.6704158 L2.94293644,37.7397646 C1.31759752,37.4341544 1.21222207e-16,35.8440787 2.71304116e-16,34.1821769 L2.99760217e-15,3.99306484 Z')
@@ -62,18 +62,18 @@
               = t('footer.features.safety.text')
               -# TODO: Link to article/wiki about security
                 %br
-                %a(href="#{t('footer.features.safety.link-href')}" target='_blank' onclick="_gs('event', 'Clicked Safety link')")= t('footer.features.safety.link-text_html')
+                %a(href="#{t('footer.features.safety.link-href')}" target='_blank')= t('footer.features.safety.link-text_html')
 
           %li
             %h2= t('footer.features.open-source.title')
             %p
               = t('footer.features.open-source.text')
               %br
-              %a(href="#{t('footer.features.open-source.link-href')}" target='_blank' onclick="_gs('event', 'Clicked Open Source link')")= t('footer.features.open-source.link-text_html')
+              %a(href="#{t('footer.features.open-source.link-href')}" target='_blank')= t('footer.features.open-source.link-text_html')
 
           %li
             %h2= t('footer.features.donations.title')
             %p
               = t('footer.features.donations.text')
               %br
-              %a(href="#{t('footer.features.donations.link-href')}" target='_blank' onclick="_gs('event', 'Clicked Donation link')")= t('footer.features.donations.link-text_html')
+              %a(href="#{t('footer.features.donations.link-href')}" target='_blank')= t('footer.features.donations.link-text_html')
