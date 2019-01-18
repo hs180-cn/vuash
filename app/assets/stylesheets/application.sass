@@ -1,5 +1,4 @@
 @import "normalize-rails"
-@import "bourbon"
 
 
 // Fonts
@@ -108,7 +107,11 @@ strong
 .site-header
   color: $c-light
   padding: 20px
-  +clearfix
+
+  &:after
+    content: ""
+    display: table
+    clear: both
 
 .logo-vuash
   color: $c-light
