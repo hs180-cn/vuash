@@ -1,6 +1,11 @@
 %div.validation-error(aria-hidden='true' role='alert')= t('validation-error')
 
-%textarea.new-message-field(autofocus placeholder="#{t('new-message.placeholder')}" maxlength=10000 name='body')
+%div.new-message-container
+
+  %div.new-message-count
+    %span(data-count) 10000
+
+  %textarea.new-message-field(autofocus placeholder="#{t('new-message.placeholder')}" maxlength=10000 name='body')
 
 = form_for @message do |f|
   = f.hidden_field :data
