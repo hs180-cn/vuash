@@ -24,7 +24,7 @@ zh-CN:
       open-source:
         title: 开源
         text: Vuash 是个开源项目，任何人都可以体验并改进这个项目。
-        link-href: "https://github.com/current/vuash"
+        link-href: "https://gitlab.com/broworkers/vuash"
         link-text_html: 查看代码 &rarr;
 
       donations:

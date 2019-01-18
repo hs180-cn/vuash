@@ -24,7 +24,7 @@ jp:
       open-source:
         title: オープンソース
         text: Vuashはオープンソースです。つまり、誰でもコードの完全性の検証が出来て、改善等を提案することも出来ます。
-        link-href: https://github.com/current/vuash
+        link-href: https://gitlab.com/broworkers/vuash
         link-text_html: ソースコードを見る &rarr;
 
       donations:

@@ -238,7 +238,7 @@ pt:
       open-source:
         title: Open Source
         text: O código do Vuash é aberto. Isso significa que qualquer pessoa interessada pode verificar sua integridade e sugerir melhorias.
-        link-href: https://github.com/current/vuash
+        link-href: https://gitlab.com/broworkers/vuash
         link-text_html: Veja o código &rarr;
 
       donations:
