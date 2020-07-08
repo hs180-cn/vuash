@@ -2,7 +2,7 @@
 jp:
 
   # Application strings
- 
+
   lang-dash: jp
   lang-underscore: jp
 
@@ -30,8 +30,8 @@ jp:
       donations:
         title: 寄付金による支援
         text: Vuashの運営は関係者の資金で維持されています。寄付をして頂けると、この維持費の一部を賄うことが可能になります。
-        link-href: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TE4MN6P4NKANJ"
-        link-text_html: Paypalで寄付する &rarr;
+        link-href: "https://www.buymeacoffee.com/rmasoni"
+        link-text_html: Buy Me a Coffeeで寄付する &rarr;
 
   # New message page (root)
 

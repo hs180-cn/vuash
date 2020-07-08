@@ -30,8 +30,8 @@ en:
       donations:
         title: Supported by donations
         text: We keep Vuash up and running with our own resources. You can help us cover the costs by making a donation.
-        link-href: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TE4MN6P4NKANJ"
-        link-text_html: Donate with Paypal &rarr;
+        link-href: "https://www.buymeacoffee.com/rmasoni"
+        link-text_html: Donate with Buy Me a Coffee &rarr;
 
   # New message page (root)
 

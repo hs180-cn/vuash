@@ -30,8 +30,8 @@ zh-CN:
       donations:
         title: 支持捐款
         text: 我们维护Vuash使用的是我们自己的资源。您可以通过捐款帮助我们。
-        link-href: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TE4MN6P4NKANJ"
-        link-text_html: 请通过Paypal捐款 &rarr;
+        link-href: "https://www.buymeacoffee.com/rmasoni"
+        link-text_html: 请通过Buy Me a Coffee捐款 &rarr;
 
   # New message page (root)
 
