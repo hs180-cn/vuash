@@ -24,9 +24,6 @@
     / Android
     %meta(name='theme-color' content='#4a90e2')
 
-    / GoatCounter
-    %script(data-goatcounter="https://vuash.goatcounter.com/count" async src="//gc.zgo.at/count.js")
-
     %title Vuash - #{t('slogan')}
     %meta(name='description' content="#{t('slogan')}")
 
@@ -71,3 +68,6 @@
               = t('footer.features.donations.text')
               %br
               %a(href="#{t('footer.features.donations.link-href')}" target='_blank')= t('footer.features.donations.link-text_html')
+
+    / GoatCounter
+    %script(data-goatcounter="https://vuash.goatcounter.com/count" async src="//gc.zgo.at/count.js")
