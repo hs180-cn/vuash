@@ -28,11 +28,11 @@ All encryption is done by the browser, no secret keys touch the server, and only
 
 ## Hosted app
 
-The app running at http://vua.sh is hosted on Heroku, with automatic deploys from this [master branch](https://gitlab.com/broworkers/vuash/tree/master/). Production code is always paired with this repository.
+The app running at http://vua.sh is hosted on Heroku, with manual deploys from this [master branch](https://gitlab.com/broworkers/vuash/tree/master/). Production code is always paired with this repository.
 
 
 ## Support the project
 
-We currently pay for Vuash's domain from our own pocket. Please consider donating :balloon:
+We currently pay for Vuash's domain from our own pocket. Please consider donating 🙏
 
 [![Buy Me a Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/rmasoni)
